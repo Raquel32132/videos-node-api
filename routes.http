@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+  "title": "Video Legal maneiro",
+  "description": "Esse video é maneiro",
+  "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/4d5b13ff-d227-4bc8-9262-81febcc95b10
+Content-type: application/json
+
+{
+  "title": "Video Diferente",
+  "description": "Esse video é maneiro tambem",
+  "duration": 181
+}
+
+###
+
+DELETE http://localhost:3333/videos/4d5b13ff-d227-4bc8-9262-81febcc95b10
